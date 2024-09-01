@@ -1,0 +1,66 @@
+#section_title {
+    margin-top: 4rem;
+    margin-left: 10%;
+    font-size: 5rem;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.article_container {
+    background-color: #fff;
+    box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.2);
+    padding-bottom: 20px;
+    border-radius: 0.5rem;
+    font-size: 15px;
+    display: inline-block;
+    margin: 2rem 2rem;
+    text-align: center;
+}
+
+.article_container:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.article_title {
+    font-size: 25px;
+}
+
+.article_price {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 25px;
+}
+
+.img_product {
+    width: 350px;
+    height: 250px;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+.btnAddCart {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: rgb(255, 117, 117);
+    padding: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+.btnAddCart:hover {
+    background-color: rgb(211, 97, 97);
+}
+
+
+
+
+
+
+
+
+

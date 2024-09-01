@@ -1,0 +1,30 @@
+#delivery_container {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    padding: 20px;
+}
+
+.delivery-table-row, .payment-table-row {
+    cursor: pointer;
+}
+
+.delivery-table-row:hover, .payment-table-row:hover {
+    background-color: #ececec;
+}
+
+.delivery-table-row td, .payment-table-row td{
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.delivery-table-row td img, .payment-table-row td img{
+    width: 100px;
+}
+
+#item_list_container {
+    height: 50%;
+}

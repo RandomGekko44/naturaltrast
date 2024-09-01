@@ -1,0 +1,42 @@
+section {
+    margin: 100px;
+}
+
+h2 {
+    margin: 20px;
+}
+
+.form-group {
+    margin: 20px;
+    font-size: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input {
+    width: 30%;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.form-group img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#saveBtn {
+    width: 15%;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 117, 117);
+}
+
+#saveBtn:hover {
+    filter: brightness(85%);
+}

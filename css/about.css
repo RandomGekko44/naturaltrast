@@ -1,0 +1,50 @@
+section {
+    margin: 50px;
+}
+
+.container {
+    width: 80%;
+    margin: 70px auto;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo2 {
+    text-align: center;
+}
+
+#logo2 img {
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-left: 20px;
+    color: #1b63b1;
+}
+
+.container p {
+    margin: 20px;
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+
+#contact_container {
+    margin-top: 30px;
+}
+
+.social_img {
+    width: 45px;
+    margin: 0 10px;
+}
+
+.social_img:hover {
+    filter: brightness(50%);
+}

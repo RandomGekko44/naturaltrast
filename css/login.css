@@ -1,0 +1,11 @@
+.form_container {
+    background-color: #fff;
+    width: 400px;
+    height: 500px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}

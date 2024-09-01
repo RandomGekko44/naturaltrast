@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'LilitaOne-Regular';
+    src: url(../fonts/LilitaOne-Regular.ttf);
+}
+
+* {
+    font-family: 'RobotoRegular', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 3px;
+}
+
+#img_title {
+    max-width: 100px;
+    margin-left: 10px;
+}
+
+.head_menu {
+    float: right;
+    list-style: none;
+    display: flex;
+    padding: 20px;
+}
+
+.head_link {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 20px;
+}
+
+#head_cart_img {
+    margin: 1rem;
+    margin-left: 1.5rem;
+    transform: translateY(-55%);
+    width: 50px;
+}
+
+#head_cart_img:hover {
+    filter: brightness(50%);
+}
+
+#head_list_user, #head_list_panel {
+    height: 100%;
+}
+
+#head_list_user #usermenu_btn, #controlpanel_btn {
+    background-color: rgb(255, 117, 117);
+    color: black;
+    border: 0;
+    margin: 1rem;
+}
+
+.head_link:hover {
+    color: rgb(255, 117, 117);
+}
+
+.head_menu li:hover .dropdown_menu {
+    visibility: visible;
+}
+
+.dropdown_menu {
+    visibility: hidden;
+    position: absolute;
+    list-style: none;
+    background-color: rgb(255, 117, 117);
+    box-shadow: 0 0 50px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 9.49px;
+    margin-left: 16px;
+    padding-left: 0;
+}
+
+#dropdown_menu_panel {
+    width: 254px;
+}
+
+.dropdown_menu li a {
+    display: block;
+    color: black;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.dropdown_menu > li:hover {
+    background-color: rgb(211, 97, 97);
+}
+
+#usermenu_btn, #controlpanel_btn {
+    transition: margin-right 0.3s;
+    transition: padding 0.3s;
+}
+
+#head_list_user:hover #usermenu_btn, #head_list_panel:hover #controlpanel_btn {
+    margin-right: 50px;
+    padding: 10px 37px;
+}
+
+#shop_name {
+    color: rgb(255, 117, 117);
+    font-family: 'LilitaOne-Regular', sans-serif;
+    font-size: 45px;
+    margin: auto 25px;
+}
+
+.head_title_container {
+    display: inline-flex;
+}
