@@ -1,3 +1,1 @@
 # naturaltrast
-
-Online shop project
